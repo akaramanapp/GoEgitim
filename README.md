@@ -2,10 +2,11 @@
 
 | Topic | Keywords |
 | ------ | ------ |
-| Variables | const, var|
+| Variable | const, var|
 | Array | array, make, len|
-| Slices | slices, make, len, cap|
+| Slice | slices, make, len, cap|
 | Map | len|
+| String | Sprintf, HasPrefix, ToUpper |
 
 ## array
 golang' da array"ler limitlidir, boyutlari bellidir. Slice"larin ise boyutlari genisleyebilir.
@@ -15,4 +16,7 @@ golang' da array"ler limitlidir, boyutlari bellidir. Slice"larin ise boyutlari g
 * cap fonksiyonu slice'in kapasitesini verir.
 
 ## map
-memory'de key value degerler tutmamizi saglar.
+* memory'de key value degerler tutmamizi saglar.
+
+## strings
+* strings degerleri tutmak icin kullanilir.
