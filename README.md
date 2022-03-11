@@ -7,6 +7,7 @@
 | Slice | slices, make, len, cap|
 | Map | len|
 | String | Sprintf, HasPrefix, ToUpper |
+| Loops | range |
 
 ## array
 golang' da array"ler limitlidir, boyutlari bellidir. Slice"larin ise boyutlari genisleyebilir.
@@ -20,3 +21,6 @@ golang' da array"ler limitlidir, boyutlari bellidir. Slice"larin ise boyutlari g
 
 ## strings
 * strings degerleri tutmak icin kullanilir.
+
+## loops
+* range ile dizi icindeki elemanlara dongu ile ulasilabilir.
