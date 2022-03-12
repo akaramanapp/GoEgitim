@@ -9,6 +9,7 @@
 | String | Sprintf, HasPrefix, ToUpper |
 | Loops | range |
 | Structs | struct, string, json |
+| Pointers | referance type  |
 
 ## array
 golang' da array"ler limitlidir, boyutlari bellidir. Slice"larin ise boyutlari genisleyebilir.
@@ -28,3 +29,6 @@ golang' da array"ler limitlidir, boyutlari bellidir. Slice"larin ise boyutlari g
 
 ## structs
 * OOP icin nesneler ile calismamizi saglar.
+
+## pointers
+* Pointer degiskenlerin adresidir. Yani degerin saklandigi konumdur.
