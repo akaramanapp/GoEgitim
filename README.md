@@ -32,3 +32,7 @@ golang' da array"ler limitlidir, boyutlari bellidir. Slice"larin ise boyutlari g
 
 ## pointers
 * Pointer degiskenlerin adresidir. Yani degerin saklandigi konumdur.
+
+## functions
+* bir veya birden fazla parametre alarak cesitli gorevleri yaptiktan sonra geriye deger veya degerler donderen kod bloklaridir.
+* go'da func'lar birden fazla deger dondurebilmektedir.
