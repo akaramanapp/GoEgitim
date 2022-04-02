@@ -21,6 +21,9 @@ func calculate(value int) (x, y int) { //return’un degiskenlerini tanımladık
 
 func main() {
 
+	// panic example
+	runServer()
+
 	timer()
 
 	// functionun cagirilmasi
@@ -37,4 +40,15 @@ func timer() {
 	defer fmt.Println("Fonksiyonun sonunda bu calisacak")
 
 	fmt.Println("Once bu kisim calisacak.")
+}
+
+func runServer() {
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println("Panic olustu. Hata: ", err)
+		}
+	}()
+
+	panic("")
+	fmt.Println("Server calisti")
 }

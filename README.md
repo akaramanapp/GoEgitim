@@ -10,6 +10,7 @@
 | Loops | range |
 | Structs | struct, string, json |
 | Pointers | referance type  |
+| Functions | defer, panic, recovery |
 
 ## array
 golang' da array"ler limitlidir, boyutlari bellidir. Slice"larin ise boyutlari genisleyebilir.
@@ -35,6 +36,9 @@ golang' da array"ler limitlidir, boyutlari bellidir. Slice"larin ise boyutlari g
 
 ## functions
 * bir veya birden fazla parametre alarak cesitli gorevleri yaptiktan sonra geriye deger veya degerler donderen kod bloklaridir.
-* go'da func'lar birden fazla deger dondurebilmektedir.
+* go'da func'lar **birden fazla** deger dondurebilmektedir.
 * tanimli degiskenleri sadece return yazarak return edebiliyoruz.
-* defer ile tanimladigimiz islemler fonksiyonun isi bittikten sonra calisir.
+* **defer** ile tanimladigimiz islemler fonksiyonun isi bittikten sonra calisir. (En son tanimlanan defer ilk calisir)
+* **panic** ile hata durumunda program calismaz.
+* **defer** tanimlari fonksiyonlarin basinda tanimlanmasi daha uygundur
+* fonksiyon icindeki panic'leri go ile builtin gelen **recovery** fonksiyonu ile kontrol edebiliriz.
