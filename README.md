@@ -37,3 +37,4 @@ golang' da array"ler limitlidir, boyutlari bellidir. Slice"larin ise boyutlari g
 * bir veya birden fazla parametre alarak cesitli gorevleri yaptiktan sonra geriye deger veya degerler donderen kod bloklaridir.
 * go'da func'lar birden fazla deger dondurebilmektedir.
 * tanimli degiskenleri sadece return yazarak return edebiliyoruz.
+* defer ile tanimladigimiz islemler fonksiyonun isi bittikten sonra calisir.

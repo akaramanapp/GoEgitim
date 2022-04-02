@@ -21,6 +21,8 @@ func calculate(value int) (x, y int) { //return’un degiskenlerini tanımladık
 
 func main() {
 
+	timer()
+
 	// functionun cagirilmasi
 	fmt.Println(add(42, 13))
 
@@ -29,4 +31,10 @@ func main() {
 
 	// degisken tanimli fonksiyon
 	fmt.Println(calculate(30))
+}
+
+func timer() {
+	defer fmt.Println("Fonksiyonun sonunda bu calisacak")
+
+	fmt.Println("Once bu kisim calisacak.")
 }
